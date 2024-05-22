@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: source_data
+    database: source_data
     schema: source_schema
     tables:
       - name: customer
