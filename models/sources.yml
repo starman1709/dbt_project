@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: snowflake_sample_data
     schema: TPCH_SF1
-    tables: 
+    tables:
       - name: customer_source
         identifier: customer
       - name: order_source
