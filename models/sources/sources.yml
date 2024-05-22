@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: snowflake_sample_data
-    schema: tpch_sf1
+  - name: source_data
+    schema: source_schema
     tables:
       - name: customer
         identifier: customer
