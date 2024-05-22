@@ -4,7 +4,7 @@ sources:
   - name: snowflake_sample_data
     schema: TPCH_SF1
     tables: 
-      - name: customer
-        identifier: customer_source
-      - name: orders
-        identifier: order_source
+      - name: customer_source
+        identifier: customer
+      - name: order_source
+        identifier: orders
